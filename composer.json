@@ -1,9 +1,13 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
     "name": "artfreek/mnd",
-    "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "type": "library",
+    "description": "Laravel MND Package",
+    "keywords": [
+        "laravel",
+        "package",
+        "mnd"
+    ],
     "license": "MIT",
     "repositories": [
         {
