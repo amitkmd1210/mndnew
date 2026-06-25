@@ -1,0 +1,20 @@
+{
+    "name": "artfreek/mnd",
+    "description": "A custom Laravel package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Artfreek\\Mnd\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Artfreek\\Mnd\\MndServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
