@@ -76,7 +76,10 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": []
+            "dont-discover": [],
+            "providers": [
+                "Artfreek\\Mnd\\MndServiceProvider"
+            ]
         }
     },
     "config": {
